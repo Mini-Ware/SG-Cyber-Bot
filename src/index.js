@@ -120,7 +120,7 @@ function check(msg) {
             inline: false,
           }, {
             name: 'Role',
-            value: 'No events are taking place',
+            value: 'ycep - Get the YCEP role',
             inline: false,
           }
         ]
