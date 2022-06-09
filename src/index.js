@@ -56,6 +56,7 @@ function tag_create(val, val2) {
   tag_reply.push(val2);
 }
 
+tag_create("welcome", "Welcome to SG Cyber Youth!")
 tag_create("support", "Please open a ticket in <#883543778877644851> for assistance");
 tag_create("flag", "SCB{C@n_Y0u_F1nD_3_0th3r_Fl@gs?}");
 tag_create("team", "**Red team** is about offensive security like finding vulnerabilities and reporting them , while **Blue team** is about defensive security like patching systems with security bugs");
@@ -63,7 +64,7 @@ tag_create("ctf", "What is a CTF?\nhttps://discord.com/channels/8375792839918878
 tag_create("tools", "Some useful tools for CTFs\nhttps://discord.com/channels/837579283991887892/856450787583852575/882212878441127947");
 tag_create("submit", "Want to submit those flags you found everywhere?\nhttps://sg-cyber-bot.miniware.repl.co/?page=verify");
 tag_create("ask", "https://dontasktoask.com/");
-tag_create("linux", "I'd just like to interject for a moment. What you're referring to as Linux, is in fact, GNU/Linux, or as I've recently taken to calling it, GNU plus Linux. Linux is not an operating system unto itself, but rather another free component of a fully functioning GNU system made useful by the GNU corelibs, shell utilities and vital system components comprising a full OS as defined by POSIX.\nMany computer users run a modified version of the GNU system every day, without realizing it. Through a peculiar turn of events, the version of GNU which is widely used today is often called 'Linux', and many of its users are not aware that it is basically the GNU system, developed by the GNU Project.")
+tag_create("linux", "I'd just like to interject for a moment. What you're referring to as Linux, is in fact, GNU/Linux, or as I've recently taken to calling it, GNU plus Linux. Linux is not an operating system unto itself, but rather another free component of a fully functioning GNU system made useful by the GNU corelibs, shell utilities and vital system components comprising a full OS as defined by POSIX.\n\nMany computer users run a modified version of the GNU system every day, without realizing it. Through a peculiar turn of events, the version of GNU which is widely used today is often called 'Linux', and many of its users are not aware that it is basically the GNU system, developed by the GNU Project.");
 
 client.on('message', msg => {
   if (msg.author.bot == true) {
