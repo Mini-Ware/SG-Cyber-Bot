@@ -11,7 +11,7 @@
   "dependencies": {
     "@mini-ware/encode-decode": "^1.0.3",
     "crypto-js": "^4.1.1",
-    "discord.js": "^13.0.0",
+    "discord.js": "^12.0.0",
     "dotenv": "^10.0.0",
     "mongodb": "^4.3.1"
   },
