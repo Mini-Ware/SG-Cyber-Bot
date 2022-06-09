@@ -98,7 +98,7 @@ function check(msg) {
     msg.channel.send("Visit this link to view the leaderboard\nhttps://sg-cyber-bot.miniware.repl.co/?page=dashboard")
   } else if (command == 'help') {
     msg.channel.send({
-      embed: {
+      embed: [{
         title: "SG Cyber Bot",
         description: "Prefix: &\n[https://sgcyberbot.com/](https://SG-Cyber-Bot.miniware.repl.co)",
         color: "#2E5984",
@@ -127,7 +127,7 @@ function check(msg) {
             inline: false,
           }
         ]
-      }
+      }]
     });
   } else if (command.startsWith('hack ')) {
     var mention = ""
