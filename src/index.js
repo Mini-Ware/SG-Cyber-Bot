@@ -18,6 +18,8 @@ async function locate_member(mongo, member, tag, relay) {
   }
 }
 
+
+try{
 const Discord = require('discord.js');
 const client = new Discord.Client({
   allowedMentions: { parse: ['users'] },
@@ -72,7 +74,6 @@ client.on('message', msg => {
 });
 
 function check(msg) {
-  try{
   const cmd = msg.content.substr(1);
   const command = cmd.toLowerCase();
   if (command == 'ping') {
@@ -245,5 +246,5 @@ function check(msg) {
 
     SCB{Ch3ck_+h3_c0mm3nts!}
   }*/
-  }catch(err){}
 }
+}catch(err){}
