@@ -30,6 +30,7 @@ const client = new Discord.Client({
     'GUILD_INVITES',
     'GUILD_MESSAGE_REACTIONS',
     'GUILD_MESSAGE_TYPING',
+    'GUILD_MESSAGES'
   ],
 });
 client.login(process.env.TOKEN);
