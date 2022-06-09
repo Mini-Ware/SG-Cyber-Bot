@@ -160,14 +160,14 @@ function check(msg) {
       display_img = hack_fail[Math.floor(Math.random() * hack_fail.length)]
     }
     msg.channel.send({
-      embed: {
+      embeds: [{
         color: "#2E5984",
         title: display_main,
         description: display_msg.replace(/your target/gi, mention),
         image: {
           url: display_img,
         }
-      }
+      }]
     });
   } else if (command == 'tags') {
     var n = 0;
@@ -177,11 +177,11 @@ function check(msg) {
       n = n + 1;
     }
     msg.channel.send({
-      embed: {
+      embeds: [{
         title: "Available tags",
         description: list,
         color: "#2E5984"
-      }
+      }]
     });
   } else if (command.startsWith('tag ')) {
     var mention = command.substr(4);
