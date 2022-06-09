@@ -7,6 +7,6 @@ Community bot which can help assist in events and engage the server
 - Simple CTF challenges
 - Gives out roles during events
 ## Made for SG Cyber Youth
-- Brought to you by the swag team
+- [Learn more about SG Cyber Youth](https://www.csa.gov.sg/Programmes/SGCyberTalent/SGCyberYouth)
 - [Join the Discord community](https://go.gov.sg/sgcyberyouth/)
-- [Learn more about SG Cyber Youth](https://sg-cyber-bot--miniware.repl.co/)
+- Brought to you by the swag team
