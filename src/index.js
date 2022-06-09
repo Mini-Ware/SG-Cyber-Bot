@@ -72,6 +72,7 @@ client.on('message', msg => {
 });
 
 function check(msg) {
+  try{
   const cmd = msg.content.substr(1);
   const command = cmd.toLowerCase();
   if (command == 'ping') {
@@ -244,4 +245,5 @@ function check(msg) {
 
     SCB{Ch3ck_+h3_c0mm3nts!}
   }*/
+  }catch(err){}
 }
