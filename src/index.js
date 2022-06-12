@@ -1,4 +1,3 @@
-//deploy
 const dotenv = require("dotenv");
 dotenv.config();
 
@@ -19,8 +18,6 @@ async function locate_member(mongo, member, tag, relay) {
   }
 }
 
-
-try{
 const Discord = require('discord.js');
 const client = new Discord.Client({
   allowedMentions: { parse: ['users'] },
@@ -257,4 +254,3 @@ function check(msg) {
     SCB{Ch3ck_+h3_c0mm3nts!}
   }*/
 }
-}catch(err){}
