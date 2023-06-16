@@ -8,7 +8,6 @@ Community bot which can help assist in events and engage the server
 ![Issues](https://img.shields.io/github/issues/Mini-Ware/SG-Cyber-Bot)
 ![Commit](https://img.shields.io/github/last-commit/Mini-Ware/SG-Cyber-Bot)
 
-![](https://github.com/Mini-Ware/SG-Cyber-Bot/blob/main/sgcyberbot.png)
 ## Features
 - Fun commands like fake hacking
 - Simple CTF challenges
