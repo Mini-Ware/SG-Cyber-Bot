@@ -8,11 +8,12 @@ Community bot which can help assist in events and engage the server
 ![Issues](https://img.shields.io/github/issues/Mini-Ware/SG-Cyber-Bot)
 ![Commit](https://img.shields.io/github/last-commit/Mini-Ware/SG-Cyber-Bot)
 
+## Updates
+> Project has stopped for some time, might bring it back in future
+
 ## Features
-- Fun commands like fake hacking
-- Simple CTF challenges
+- Provide tags to quickly send snippets
 - Gives out roles during events
-## Made for SG Cyber Youth
+## Made by and for SG Cyber Youth
 - [Learn more about SG Cyber Youth](https://www.csa.gov.sg/Programmes/SGCyberTalent/SGCyberYouth)
-- [Join the Discord community](https://go.gov.sg/sgcyberyouth/)
-- Brought to you by the swag team
+- [Join the Discord community!](https://go.gov.sg/sgcyberyouth/)
